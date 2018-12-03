@@ -25,6 +25,14 @@ li {
   font-size: 1.75rem;
 }
 
+.section__p {
+  font-size: 1.25rem;
+}
+
+.section__p span {
+  font-weight: 700;
+}
+
 .section-box {
   width: 100%;
   padding: 2rem;
@@ -70,6 +78,7 @@ li {
   background-color: rgba(139, 32, 50, 0.6);
   border: 1px solid #ccc;
   box-shadow: none;
+  color: #fff;
 }
 
 
@@ -171,12 +180,55 @@ li {
 /* SECOND SECTION */
 
 #second {
-  background-color: rgb(169, 169, 169)
+  background-color: rgb(169, 169, 169);
+}
+
+#second .section__headings {
+  background-color: #b5182a;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+/* end SECOND SECTION */
+/* THIRD SECTION */
+#third {
+  background: linear-gradient(rgba(169, 169, 169, 1), rgba(169, 169, 169, 0.4), rgba(255,255,255,1)), url("../img/bg-2.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  /* background-color: #b5182a; */
+  border: none;
+}
+
+.card-header {
+  background-color: #b5182a;
+}
+
+.accordion_header {
+  color: #fff;
+  font-weight: 700;
+  margin: 0 auto;
+  display: block;
+  font-size: 1.75rem;
+}
+
+.card-body {
+  background-color: rgba(169, 169, 169, 0.4);
 }
 
 
-/* end SECOND SECTION */
+/* end THIRD SECTION */
+
 /* HISTORY SECTION */
+#history {
+  background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1), rgba(169,169,169,1));
+}
+
 
 #history h6 {
   font-weight: 400;
@@ -212,7 +264,7 @@ li {
 
 /* FOOTER */
 footer {
-  background-color: darkgray;
+  background-color: rgb(169, 169, 169);
 }
 
 footer h3 {

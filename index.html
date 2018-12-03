@@ -48,28 +48,62 @@
             <div class="logo">
                 <h1 class="site-name">Bureau Veritas</h1>
             </div>
-            <div class="first__headings">
-                <h1 class="text-uppercase first__heading text-center">Būvizstrādājumu sertifikācija</h1>
-                <!-- <div class="first__subheadings">
-                    <h3 class="first__subheading text-center"><span>Bureau Veritas Latvia</span>
-                        uzraudzības
-                        pakalpojumi iekārtu un produktu ražošanas, piegādes procesā.
-                    </h3>
-                </div> -->
-            </div>
-            <div class="container position-relative">
+
+            <div class="container">
+                <div class="first__headings">
+                    <h1 class="text-uppercase first__heading text-center">Būvizstrādājumu sertifikācija</h1>
+                </div>
+
+                <!-- CARD ONE -->
                 <div class="row">
-                    <!-- <div class="first__cards"> -->
                     <div class="col-lg-2 col-md-4">
                         <div id="card-one" class="card">
                             <img class="card-img" src="./img/karte.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title text-center">Akreditētā sfēra</h5>
+                                <h5 class="card-title text-center">Ceļa būve</h5>
                                 <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary readmore-btn">Lasīt vairāk</a>
+                                <a href="#" class="btn readmore-btn" data-toggle="modal" data-target="#modalOne">Lasīt
+                                    vairāk</a>
                             </div>
                         </div>
                     </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="modalOneLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalOneLabel">Ceļu būve</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="modal-body__p">
+                                        Neliels teikums…..
+                                        <ul>
+                                            <li>Bituminēties maisījumi
+                                                (EN 13108-1;2;3;4;5;6;7) - nosaukums</li>
+                                            <li>Ceļu virsmas apstrāde
+                                                (EN 12271l- nosaukums EN 12273 - nosaukums)</li>
+                                            <li>Minerālmateriāli (EN 12620; EN 13043l; EN 13242; EN 13139; EN 13005-1;
+                                                EN
+                                                13055-2)</li>
+                                            <li>Ielu un ceļu aprīkojums (EN 12899-1l; EN 12899-3</li>
+                                        </ul>
+
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#footer" class="btn readmore-btn" data-dismiss="modal">Sazināties ar mums</a>
+                                    <button type="button" class="btn readmore-btn" data-dismiss="modal">Aizvērt</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end card one -->
+
+
                     <div class="col-lg-2 col-md-4">
                         <div id="card-two" class="card">
                             <img class="card-img" src="./img/karte.jpg" alt="Card image cap">
@@ -122,23 +156,184 @@
                     </div>
                 </div>
             </div>
-            <!-- <p class="first__arrow-down">
+            <p class="first__arrow-down">
                 <a href="#second"><i class="fas fa-arrow-down"></i></a>
-            </p> -->
+            </p>
         </section>
         <!-- end FIRST SECTION -->
         <!-- SECOND SECTION -->
         <section class="section-box" id="second">
-            <div class="container-fluid">
-                <h1 class="section__headings">Kā padarīt būvizstrādājumu atbilstošu<br> starptautiskām, nacionālām,
+            <div class="container">
+                <h1 class="section__headings text-center">Kā padarīt būvizstrādājumu atbilstošu<br> starptautiskām,
+                    nacionālām,
                     specifiskām prasībām?</h1>
+                <p class="section__p">
+                    <span>BUREAU VERITAS LATVIJA</span> piedāvā risinājumus - sertifikācija, testēšanu, novērtēšanu,
+                    lai ražotais
+                    būvizstrādājums atbilstu noteiktām prasībām.
+                </p>
+                <h1 class="section__headings text-center">Kādas ir attiecināmās prasības pirms būvizstrādājuma laišanas
+                    tirgū, piegādes?</h1>
+                <p class="section__p">
+                    <span>EIROPAS PARLAMENTA UN PADOMES REGULA (ES) Nr. 305/2011 (2011. gada 9. marts).</span><br>
+                    Latvijas likumdošana
+                    Būvizstrādājumu standarti
+                    Testēšanas standarti
+                    Klientu, pasūtītāju prasības.
+                </p>
+                <p class="section__p">
+                    <span>EIROPAS PARLAMENTA UN PADOMES REGULA (ES) Nr. 305/2011 (2011. gada 9. marts).</span><br>
+                    Šī regula paredz nosacījumus tam, kā būvizstrādājumus laiž tirgū vai dara pieejamus tirgū, nosakot
+                    saskaņotus noteikumus (standartus, tehniskos noteikumus) uz to būtiskiem raksturlielumiem un par CE
+                    zīmes izmantošanu uz šiem izstrādājumiem.
+                </p>
             </div>
         </section>
         <!-- end SECOND SECTION -->
+        <!-- THIRD SECTION -->
+        <!-- end THIRD SECTION -->
+        <section class="section-box" id="third">
+            <div class="container">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link accordion_header" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Akreditētā sfēra
+                                </button>
+                            </h5>
+                        </div>
 
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on
+                                it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                                excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed accordion_header" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Neakreditētā sfēra
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on
+                                it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                                excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed accordion_header" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Latvijas likumdošanas prasības būvizstrādājumiem
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on
+                                it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                                excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed accordion_header" type="button" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Dažādi būvizstrādājumu standarti
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on
+                                it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                                excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed accordion_header" type="button" data-toggle="collapse"
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Testēšanas standarti
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on
+                                it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                                excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed accordion_header" type="button" data-toggle="collapse"
+                                    data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Klientu, pasūtītāju prasība
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on
+                                it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                                excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                                sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- HISTORY SECTION -->
-        <!-- <section class="section-box" id="history">
+        <section class="section-box" id="history">
             <h3 class="text-center text-uppercase section__headings"><span>Bureau Veritas</span> - gadsimtu pieredze
                 atbilstības
                 vērtēšanā</h3>
@@ -175,11 +370,11 @@
                         paaugstina zīmola vērtību, iegūst pārliecību par iekšējo procesu norisi.</span>
                 </p>
             </div>
-        </section> -->
+        </section>
         <!-- end HISTORY SECTION -->
     </main>
     <!-- FOOTER -->
-    <!-- <footer class="section-box" id="footer">
+    <footer class="section-box" id="footer">
         <h3 class="text-center text-uppercase section__headings">Sazinieties ar mums</h3>
         <hr class="section__hr">
         <div class="container footer__contact">
@@ -241,7 +436,7 @@
                 mērķis ir tīmekļa vietnes satura kvalitātes uzlabošana un satura pielāgošana lietotāju
                 vajadzībām.</p>
         </div>
-    </footer> -->
+    </footer>
     <!-- end FOOTER -->
 
     <!-- JavaSript -->
