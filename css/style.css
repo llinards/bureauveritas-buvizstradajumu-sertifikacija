@@ -137,25 +137,6 @@ li {
   text-transform: uppercase;
 }
 
-.first__cards {
-  margin: 0 auto;
-  display: flex;
-  overflow: auto;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  width: 10rem;
-  margin: 1rem;
-}
-
-/* #card-two, 
-#card-four {
-  position: relative;
-  top: 15%
-} */
-
 .first__arrow-down {
   font-size: 4rem;
   animation: upAndDown 5s infinite;
@@ -187,18 +168,26 @@ li {
 }
 
 /* end FIRST SECTION */
-/* FOURTH SECTION */
+/* SECOND SECTION */
 
-#fourth h6 {
+#second {
+  background-color: rgb(169, 169, 169)
+}
+
+
+/* end SECOND SECTION */
+/* HISTORY SECTION */
+
+#history h6 {
   font-weight: 400;
   padding-left: 1rem;
 }
 
-#fourth h3 {
+#history h3 {
   font-weight: 400;
 }
 
-#fourth span {
+#history span {
   font-weight: 700;
 }
 
@@ -219,7 +208,8 @@ li {
   padding-bottom: 0.5rem;
 }
 
-/* end FOURTH SECTION */
+/* end HISTORY SECTION */
+
 /* FOOTER */
 footer {
   background-color: darkgray;
