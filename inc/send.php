@@ -1,6 +1,7 @@
 <?php
 
-$recipient_email    = "girts.tobijs@lv.bureauveritas.com, linards@lynyrds.com, lelde.igaune@lv.bureauveritas.com"; 
+//$recipient_email    = "girts.tobijs@lv.bureauveritas.com, linards@lynyrds.com, lelde.igaune@lv.bureauveritas.com"; 
+$recipient_email = "linards@lynyrds.com";
 $from_email         = "info@bureauveritaslatvia.lv"; //from email using site domain.
 
 

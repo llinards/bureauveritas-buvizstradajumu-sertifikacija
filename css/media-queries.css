@@ -15,7 +15,8 @@
     }
 
     .first__subheading,
-    .section__headings {
+    .section__headings,
+    .accordion_header {
         font-size: 1.5rem;
     }
 
@@ -31,7 +32,11 @@
         font-size: 1.25rem;
     }
 
-    .popup-btn,
+    .second__apply-btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .apply-btn {
         font-size: 1.25rem;
     }
@@ -64,15 +69,21 @@
         padding-top: 2rem;
     }
 
-    .first__heading {
-        font-size: 1.5rem;
-    }
-
     .first__subheading,
-    .section__headings {
+    .section__headings,
+    .accordion_header {
         font-size: 1.25rem;
     }
 
+
+    .card-body ul {
+        font-size: 1rem;
+        padding-left: 0;
+    }
+
+    .card-body ul i {
+        font-size: 1.25rem;
+    }
 
     #fourth p {
         font-size: 0.75rem;
@@ -80,13 +91,10 @@
 }
 
 @media (max-width: 440px) {
-    .first__heading {
-        font-size: 1.25rem
-    }
 
     .first__subheading,
     .section__headings,
-        {
+    .accordion_header {
         font-size: 1rem;
     }
 
@@ -95,7 +103,7 @@
     }
 
     .apply-btn {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
     .form-group,
