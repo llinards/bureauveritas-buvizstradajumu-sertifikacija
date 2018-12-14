@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
 
 /* GLOBAL */
 h1,
@@ -73,6 +73,7 @@ li {
 .readmore-btn:focus {
   background-color: rgba(139, 32, 50, 0.6);
   border: 1px solid #ccc;
+  -webkit-box-shadow: none;
   box-shadow: none;
   color: #fff;
 }
@@ -80,6 +81,9 @@ li {
 
 /* FIRST SECTION */
 #first {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(169, 169, 169, 0.4)), to(darkgray)), url("../img/bg.jpg");
+  background: -webkit-linear-gradient(rgba(169, 169, 169, 0.4), darkgray), url("../img/bg.jpg");
+  background: -o-linear-gradient(rgba(169, 169, 169, 0.4), darkgray), url("../img/bg.jpg");
   background: linear-gradient(rgba(169, 169, 169, 0.4), darkgray), url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
@@ -131,9 +135,14 @@ li {
 
 .first__arrow-down {
   font-size: 4rem;
+  -webkit-animation: upAndDown 5s infinite;
   animation: upAndDown 5s infinite;
   margin-bottom: 4rem !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -145,16 +154,36 @@ li {
   cursor: pointer;
 }
 
-@keyframes upAndDown {
+@-webkit-keyframes upAndDown {
   0% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
   50% {
+    -webkit-transform: translateY(25px);
     transform: translateY(25px);
   }
 
   100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes upAndDown {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(25px);
+    transform: translateY(25px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
@@ -172,8 +201,6 @@ li {
   padding: 0.5rem;
 }
 
-#second .apply-btn {}
-
 .second__apply-btn {
   width: 40%;
   margin: 0 auto;
@@ -182,11 +209,18 @@ li {
 /* end SECOND SECTION */
 /* THIRD SECTION */
 #third {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(169, 169, 169, 1)), color-stop(rgba(169, 169, 169, 0.4)), to(rgba(255, 255, 255, 1))), url("../img/bg-2.jpg");
+  background: -webkit-linear-gradient(rgba(169, 169, 169, 1), rgba(169, 169, 169, 0.4), rgba(255, 255, 255, 1)), url("../img/bg-2.jpg");
+  background: -o-linear-gradient(rgba(169, 169, 169, 1), rgba(169, 169, 169, 0.4), rgba(255, 255, 255, 1)), url("../img/bg-2.jpg");
   background: linear-gradient(rgba(169, 169, 169, 1), rgba(169, 169, 169, 0.4), rgba(255, 255, 255, 1)), url("../img/bg-2.jpg");
   background-size: cover;
   min-height: 100vh;
   overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -215,22 +249,32 @@ li {
   background-color: rgba(169, 169, 169, 0.4);
 }
 
+.accordion_three__list {
+  width: 100%;
+}
+
 .card-body ul {
   list-style: none;
   font-size: 1rem;
+  width: 100%;
+  text-align: center;
+  padding-left: 0;
 }
 
 .card-body ul i {
-  font-size: 1.25rem;
+  font-size: 2rem;
+  color: #b5182a;
 }
 
 /* end THIRD SECTION */
 
 /* HISTORY SECTION */
 #history {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1)), color-stop(rgba(255, 255, 255, 1)), to(rgba(169, 169, 169, 1)));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(169, 169, 169, 1));
+  background: -o-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(169, 169, 169, 1));
   background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(169, 169, 169, 1));
 }
-
 
 #history h6 {
   font-weight: 400;
@@ -292,6 +336,7 @@ footer label {
 
 .form-control:focus {
   border-color: #b5182a;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(190, 17, 47, 0.25);
   box-shadow: 0 0 0 0.2rem rgba(190, 17, 47, 0.25);
 }
 
@@ -306,10 +351,16 @@ label.agree-checkbox__text {
 }
 
 .footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100%;
   width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 

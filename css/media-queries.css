@@ -75,6 +75,9 @@
         font-size: 1.25rem;
     }
 
+    .modal-body ul {
+        padding-left: 1rem;
+    }
 
     .card-body ul {
         font-size: 1rem;
