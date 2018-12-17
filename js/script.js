@@ -1,13 +1,10 @@
-function changeReadMore() {
-    // console.log("Function needs to be implemented");
-}
-
+function changeReadMore() {}
 $('a[href^="#"]').on('click', function (event) {
     var target = $(this.getAttribute('href'));
     if (target.length) {
         event.preventDefault();
         $('html, body').stop().animate({
             scrollTop: target.offset().top
-        }, 1000);
+        }, 1000)
     }
-});
+})
