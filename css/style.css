@@ -92,6 +92,7 @@ li {
 .logo {
   height: 150px;
   width: 150px;
+  padding-left: 15px;
 }
 
 .logo .site-name {
@@ -101,7 +102,7 @@ li {
   content: "";
   width: 150px;
   height: 150px;
-  background-size: 150px 150px;
+  /* background-size: 150px 150px; */
   text-indent: -9999px;
   margin-bottom: 0;
 }
@@ -121,6 +122,10 @@ li {
 
 .modal-dialog {
   max-width: 600px;
+}
+
+#first .card {
+  min-width: 195px;
 }
 
 .heading__readmore {
