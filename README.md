@@ -1,6 +1,6 @@
 <h1 align="center">Bureau Veritas - Būvniecības Sertifikācija 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > Simple static HTML landing page.<br />
